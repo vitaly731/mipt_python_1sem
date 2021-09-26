@@ -1,7 +1,6 @@
 from random import *
 import turtle
 
-
 number_of_turtles = 60
 steps_of_time_number = 1000
 
@@ -21,7 +20,6 @@ for unit in pool:
     unit.speed("fastest")
     unit.goto(randint(-248, 248), randint(-248, 248))
     unit.left(360 * (random() - 0.5))
-
 
 for i in range(steps_of_time_number):
     for unit in pool:
