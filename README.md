@@ -1,1 +1,1 @@
-# mipt_python_labs
+# mipt_python_1sem
