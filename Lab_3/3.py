@@ -2,7 +2,6 @@ import turtle as t
 
 size = 40 # Характерный размер нарисованной цифры
 
-
 def list_for(digit):
     A = []
     with open('digits_for_index.txt') as txt:
@@ -100,9 +99,7 @@ def draw0():
         else:
             print('Something is wrong with digits_for_index.txt')
 
-
 draw1()
 draw4()
 draw7()
 draw0()
-    
